@@ -1,0 +1,11 @@
+Create a class Animal with method sound(). Create a child class Dog that prints "Bark".
+
+class Animal:
+    def __init__(self,sound):
+        self.sound=sound
+        print(self.sound)
+        
+class Dog(Animal):
+       def __init__(self):
+         super().__init__("bark")
+dog=Dog()
