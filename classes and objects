@@ -1,0 +1,55 @@
+Create a class Student with attributes name and age. Create an object and print the details.
+class Student:
+    def __init__(self,name,age):
+        self.name =name
+        self.age=age
+s1=Student("lahari",30)
+print(s1.name)
+print(s1.age)
+
+Create a class Car with attributes brand and model. Print the car details using an object.
+class Car:
+    def __init__(self,brand,model):
+      self.brand=brand
+      self.model=model
+c1=Car("wagnor",2022)
+print(c1.brand)
+print(c1.model)
+
+Create a class Person with a constructor that takes name and age. Print them.
+class Person:
+    def __init__(self,name,age):
+     self.name=name
+     self.age=age
+p1=Person("lahati",21)
+print(p1.name)
+print(p1.age)
+
+Create a class Book with title and author and display the book details.
+class Book:
+    def __init__(self,title,author):
+     self.title=title
+     self.author=author
+b1=Book("love","lahari")
+print(b1.title)
+print(b1.author)
+
+
+METHODS IN CLASS
+Create a class Calculator with methods add(a,b) and subtract(a,b).
+class Calculator:
+    def __init__(self,a,b):
+      self.a=a
+      self.b=b
+c1=Calculator(5,9)
+print(c1.a+c1.b)
+print(c1.a-c1.b)
+
+Create a class Rectangle with methods to calculate area and perimeter.
+class Rectangle:
+    def __init__(self,l,w):
+        self.l=l
+        self.w==deposit
+r1=Rectangle(4,5)
+print("area of rectangle=",r1.l*r1.w)
+print("perimeter of rectangle=",2*(r1.l*r1.w))
