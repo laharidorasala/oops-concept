@@ -1,0 +1,17 @@
+Create a class StudentMarks to store marks of 3 subjects and calculate the average.
+class Studentmarks:
+    def __init__(self,maths,english,hindi):
+        self.maths=maths
+        self.english=english
+        self.hindi=hindi
+    def avg(self):
+        avg = (self.maths + self.english + self.hindi) / 3
+        return avg
+        
+s1=Studentmarks(23,34,45)
+print(s1.maths)
+print(s1.english)
+print(s1.hindi)
+  
+a1=s1.avg()
+print("avgerage=",a1)
