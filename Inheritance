@@ -9,3 +9,18 @@ class Dog(Animal):
        def __init__(self):
          super().__init__("bark")
 dog=Dog()
+
+Create a class Vehicle and a child class Bike that displays bike details.
+
+class Vehicle:
+    def __init__(self,display):
+        self.display=display
+        print(self.display)
+class Bike(Vehicle):
+    def __init__(self,brand,model):
+        self.brand=brand
+        self.mode=model
+        super().__init__(brand)
+        
+b1=Bike("activa",123)
+
